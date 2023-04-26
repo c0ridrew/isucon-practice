@@ -1,0 +1,309 @@
+2023/04/18 09:14:12 [notice] 1#1: using the "epoll" event method
+2023/04/18 09:14:12 [notice] 1#1: nginx/1.24.0
+2023/04/18 09:14:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/18 09:14:12 [notice] 1#1: OS: Linux 6.1.21-orbstack-00098-g7d48b03fef38
+2023/04/18 09:14:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/18 09:14:12 [notice] 1#1: start worker processes
+2023/04/18 09:14:12 [notice] 1#1: start worker process 28
+2023/04/18 09:14:12 [notice] 1#1: start worker process 29
+2023/04/18 09:14:12 [notice] 1#1: start worker process 30
+2023/04/18 09:14:12 [notice] 1#1: start worker process 31
+2023/04/18 09:14:12 [notice] 1#1: start worker process 32
+2023/04/18 09:14:12 [notice] 1#1: start worker process 33
+2023/04/18 09:14:12 [notice] 1#1: start worker process 34
+2023/04/18 09:14:12 [notice] 1#1: start worker process 35
+2023/04/18 09:14:12 [notice] 1#1: start worker process 36
+2023/04/18 09:14:12 [notice] 1#1: start worker process 37
+2023/04/18 09:32:00 [warn] 34#34: *8 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10001.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10001.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:32:00 [warn] 34#34: *7 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10000.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10000.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:33:45 [warn] 28#28: *56 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10000.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10000.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:33:45 [warn] 28#28: *55 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9995.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9995.jpg", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:33:48 [warn] 28#28: *55 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10001.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10001.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:33:48 [warn] 29#29: *66 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/00/0000000006 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10000.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10000.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:33:48 [warn] 29#29: *65 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/00/0000000007 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9994.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9994.jpg", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:34:14 [warn] 28#28: *63 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/00/0000000008 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9985.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9985.jpg", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:36:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/18 09:36:10 [notice] 29#29: gracefully shutting down
+2023/04/18 09:36:10 [notice] 28#28: gracefully shutting down
+2023/04/18 09:36:10 [notice] 31#31: gracefully shutting down
+2023/04/18 09:36:10 [notice] 30#30: gracefully shutting down
+2023/04/18 09:36:10 [notice] 32#32: gracefully shutting down
+2023/04/18 09:36:10 [notice] 33#33: gracefully shutting down
+2023/04/18 09:36:10 [notice] 37#37: gracefully shutting down
+2023/04/18 09:36:10 [notice] 36#36: gracefully shutting down
+2023/04/18 09:36:10 [notice] 34#34: gracefully shutting down
+2023/04/18 09:36:10 [notice] 35#35: gracefully shutting down
+2023/04/18 09:36:10 [notice] 29#29: exiting
+2023/04/18 09:36:10 [notice] 28#28: exiting
+2023/04/18 09:36:10 [notice] 31#31: exiting
+2023/04/18 09:36:10 [notice] 30#30: exiting
+2023/04/18 09:36:10 [notice] 32#32: exiting
+2023/04/18 09:36:10 [notice] 33#33: exiting
+2023/04/18 09:36:10 [notice] 37#37: exiting
+2023/04/18 09:36:10 [notice] 36#36: exiting
+2023/04/18 09:36:10 [notice] 34#34: exiting
+2023/04/18 09:36:10 [notice] 35#35: exiting
+2023/04/18 09:36:10 [notice] 29#29: exit
+2023/04/18 09:36:10 [notice] 28#28: exit
+2023/04/18 09:36:10 [notice] 31#31: exit
+2023/04/18 09:36:10 [notice] 30#30: exit
+2023/04/18 09:36:10 [notice] 32#32: exit
+2023/04/18 09:36:10 [notice] 33#33: exit
+2023/04/18 09:36:10 [notice] 37#37: exit
+2023/04/18 09:36:10 [notice] 36#36: exit
+2023/04/18 09:36:10 [notice] 34#34: exit
+2023/04/18 09:36:10 [notice] 35#35: exit
+2023/04/18 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/04/18 09:36:10 [notice] 1#1: worker process 29 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/04/18 09:36:10 [notice] 1#1: worker process 28 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: worker process 30 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: worker process 32 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: worker process 33 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: worker process 34 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: worker process 35 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: worker process 37 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/04/18 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/04/18 09:36:10 [notice] 1#1: worker process 31 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:36:10 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/04/18 09:36:10 [notice] 1#1: worker process 36 exited with code 0
+2023/04/18 09:36:10 [notice] 1#1: exit
+2023/04/18 09:36:14 [notice] 1#1: using the "epoll" event method
+2023/04/18 09:36:14 [notice] 1#1: nginx/1.24.0
+2023/04/18 09:36:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/18 09:36:14 [notice] 1#1: OS: Linux 6.1.21-orbstack-00098-g7d48b03fef38
+2023/04/18 09:36:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/18 09:36:14 [notice] 1#1: start worker processes
+2023/04/18 09:36:14 [notice] 1#1: start worker process 28
+2023/04/18 09:36:14 [notice] 1#1: start worker process 29
+2023/04/18 09:36:14 [notice] 1#1: start worker process 30
+2023/04/18 09:36:14 [notice] 1#1: start worker process 31
+2023/04/18 09:36:14 [notice] 1#1: start worker process 32
+2023/04/18 09:36:14 [notice] 1#1: start worker process 33
+2023/04/18 09:36:14 [notice] 1#1: start worker process 34
+2023/04/18 09:36:14 [notice] 1#1: start worker process 35
+2023/04/18 09:36:14 [notice] 1#1: start worker process 36
+2023/04/18 09:36:14 [notice] 1#1: start worker process 37
+2023/04/18 09:36:52 [warn] 28#28: *2 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10001.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10001.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:36:52 [warn] 28#28: *1 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9987.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9987.jpg", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:37:02 [warn] 30#30: *13 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10001.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10001.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:37:24 [warn] 29#29: *7 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10000.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10000.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:37:24 [warn] 31#31: *8 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9991.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9991.jpg", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:37:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/18 09:37:32 [notice] 28#28: gracefully shutting down
+2023/04/18 09:37:32 [notice] 29#29: gracefully shutting down
+2023/04/18 09:37:32 [notice] 33#33: gracefully shutting down
+2023/04/18 09:37:32 [notice] 33#33: exiting
+2023/04/18 09:37:32 [notice] 31#31: gracefully shutting down
+2023/04/18 09:37:32 [notice] 32#32: gracefully shutting down
+2023/04/18 09:37:32 [notice] 32#32: exiting
+2023/04/18 09:37:32 [notice] 30#30: gracefully shutting down
+2023/04/18 09:37:32 [notice] 34#34: gracefully shutting down
+2023/04/18 09:37:32 [notice] 34#34: exiting
+2023/04/18 09:37:32 [notice] 35#35: gracefully shutting down
+2023/04/18 09:37:32 [notice] 35#35: exiting
+2023/04/18 09:37:32 [notice] 36#36: gracefully shutting down
+2023/04/18 09:37:32 [notice] 36#36: exiting
+2023/04/18 09:37:32 [notice] 37#37: gracefully shutting down
+2023/04/18 09:37:32 [notice] 28#28: exiting
+2023/04/18 09:37:32 [notice] 29#29: exiting
+2023/04/18 09:37:32 [notice] 33#33: exit
+2023/04/18 09:37:32 [notice] 31#31: exiting
+2023/04/18 09:37:32 [notice] 32#32: exit
+2023/04/18 09:37:32 [notice] 30#30: exiting
+2023/04/18 09:37:32 [notice] 34#34: exit
+2023/04/18 09:37:32 [notice] 35#35: exit
+2023/04/18 09:37:32 [notice] 36#36: exit
+2023/04/18 09:37:32 [notice] 37#37: exiting
+2023/04/18 09:37:32 [notice] 28#28: exit
+2023/04/18 09:37:32 [notice] 29#29: exit
+2023/04/18 09:37:32 [notice] 31#31: exit
+2023/04/18 09:37:32 [notice] 30#30: exit
+2023/04/18 09:37:32 [notice] 37#37: exit
+2023/04/18 09:37:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/04/18 09:37:32 [notice] 1#1: worker process 33 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:37:32 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/04/18 09:37:32 [notice] 1#1: worker process 28 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 30 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 31 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 32 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 34 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 35 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 36 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: worker process 37 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:37:32 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/04/18 09:37:32 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/04/18 09:37:32 [notice] 1#1: worker process 29 exited with code 0
+2023/04/18 09:37:32 [notice] 1#1: exit
+2023/04/18 09:37:37 [notice] 1#1: using the "epoll" event method
+2023/04/18 09:37:37 [notice] 1#1: nginx/1.24.0
+2023/04/18 09:37:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/18 09:37:37 [notice] 1#1: OS: Linux 6.1.21-orbstack-00098-g7d48b03fef38
+2023/04/18 09:37:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/18 09:37:37 [notice] 1#1: start worker processes
+2023/04/18 09:37:37 [notice] 1#1: start worker process 28
+2023/04/18 09:37:37 [notice] 1#1: start worker process 29
+2023/04/18 09:37:37 [notice] 1#1: start worker process 30
+2023/04/18 09:37:37 [notice] 1#1: start worker process 31
+2023/04/18 09:37:37 [notice] 1#1: start worker process 32
+2023/04/18 09:37:37 [notice] 1#1: start worker process 33
+2023/04/18 09:37:37 [notice] 1#1: start worker process 34
+2023/04/18 09:37:37 [notice] 1#1: start worker process 35
+2023/04/18 09:37:37 [notice] 1#1: start worker process 36
+2023/04/18 09:37:37 [notice] 1#1: start worker process 37
+2023/04/18 09:38:05 [warn] 28#28: *2 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10000.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10000.png", host: "localhost", referrer: "http://localhost/"
+2023/04/18 09:57:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/18 09:57:31 [notice] 28#28: gracefully shutting down
+2023/04/18 09:57:31 [notice] 28#28: exiting
+2023/04/18 09:57:31 [notice] 30#30: gracefully shutting down
+2023/04/18 09:57:31 [notice] 30#30: exiting
+2023/04/18 09:57:31 [notice] 32#32: gracefully shutting down
+2023/04/18 09:57:31 [notice] 33#33: gracefully shutting down
+2023/04/18 09:57:31 [notice] 34#34: gracefully shutting down
+2023/04/18 09:57:31 [notice] 34#34: exiting
+2023/04/18 09:57:31 [notice] 29#29: gracefully shutting down
+2023/04/18 09:57:31 [notice] 29#29: exiting
+2023/04/18 09:57:31 [notice] 36#36: gracefully shutting down
+2023/04/18 09:57:31 [notice] 37#37: gracefully shutting down
+2023/04/18 09:57:31 [notice] 37#37: exiting
+2023/04/18 09:57:31 [notice] 31#31: gracefully shutting down
+2023/04/18 09:57:31 [notice] 31#31: exiting
+2023/04/18 09:57:31 [notice] 35#35: gracefully shutting down
+2023/04/18 09:57:31 [notice] 28#28: exit
+2023/04/18 09:57:31 [notice] 30#30: exit
+2023/04/18 09:57:31 [notice] 32#32: exiting
+2023/04/18 09:57:31 [notice] 33#33: exiting
+2023/04/18 09:57:31 [notice] 34#34: exit
+2023/04/18 09:57:31 [notice] 29#29: exit
+2023/04/18 09:57:31 [notice] 36#36: exiting
+2023/04/18 09:57:31 [notice] 37#37: exit
+2023/04/18 09:57:31 [notice] 31#31: exit
+2023/04/18 09:57:31 [notice] 35#35: exiting
+2023/04/18 09:57:31 [notice] 32#32: exit
+2023/04/18 09:57:31 [notice] 33#33: exit
+2023/04/18 09:57:31 [notice] 36#36: exit
+2023/04/18 09:57:31 [notice] 35#35: exit
+2023/04/18 09:57:31 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/04/18 09:57:31 [notice] 1#1: worker process 28 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:57:31 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/04/18 09:57:31 [notice] 1#1: worker process 32 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: worker process 34 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: worker process 35 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:57:31 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/04/18 09:57:31 [notice] 1#1: worker process 29 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:57:31 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/04/18 09:57:31 [notice] 1#1: worker process 30 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: worker process 31 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: worker process 37 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/18 09:57:31 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/04/18 09:57:31 [notice] 1#1: worker process 33 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: worker process 36 exited with code 0
+2023/04/18 09:57:31 [notice] 1#1: exit
+2023/04/18 09:57:37 [notice] 1#1: using the "epoll" event method
+2023/04/18 09:57:37 [notice] 1#1: nginx/1.24.0
+2023/04/18 09:57:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/18 09:57:37 [notice] 1#1: OS: Linux 6.1.21-orbstack-00098-g7d48b03fef38
+2023/04/18 09:57:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/18 09:57:37 [notice] 1#1: start worker processes
+2023/04/18 09:57:37 [notice] 1#1: start worker process 28
+2023/04/18 09:57:37 [notice] 1#1: start worker process 29
+2023/04/18 09:57:37 [notice] 1#1: start worker process 30
+2023/04/18 09:57:37 [notice] 1#1: start worker process 31
+2023/04/18 09:57:37 [notice] 1#1: start worker process 32
+2023/04/18 09:57:37 [notice] 1#1: start worker process 33
+2023/04/18 09:57:37 [notice] 1#1: start worker process 34
+2023/04/18 09:57:37 [notice] 1#1: start worker process 35
+2023/04/18 09:57:37 [notice] 1#1: start worker process 36
+2023/04/18 09:57:37 [notice] 1#1: start worker process 37
+2023/04/19 01:37:20 [notice] 44#44: signal process started
+2023/04/19 01:37:20 [notice] 1#1: signal 10 (SIGUSR1) received from 44, reopening logs
+2023/04/19 01:37:20 [notice] 1#1: reopening logs
+2023/04/19 01:37:20 [notice] 29#29: reopening logs
+2023/04/19 01:37:20 [notice] 36#36: reopening logs
+2023/04/19 01:37:20 [notice] 28#28: reopening logs
+2023/04/19 01:37:20 [notice] 30#30: reopening logs
+2023/04/19 01:37:20 [notice] 31#31: reopening logs
+2023/04/19 01:37:20 [notice] 32#32: reopening logs
+2023/04/19 01:37:20 [notice] 34#34: reopening logs
+2023/04/19 01:37:20 [notice] 33#33: reopening logs
+2023/04/19 01:37:20 [notice] 35#35: reopening logs
+2023/04/19 01:37:20 [notice] 37#37: reopening logs
+2023/04/19 01:37:20 [emerg] 29#29: open() "/var/log/nginx/error.log" failed (13: Permission denied)
+2023/04/19 01:37:20 [emerg] 36#36: open() "/var/log/nginx/error.log" failed (13: Permission denied)
+2023/04/19 01:53:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/19 01:53:37 [notice] 28#28: gracefully shutting down
+2023/04/19 01:53:37 [notice] 29#29: gracefully shutting down
+2023/04/19 01:53:37 [notice] 30#30: gracefully shutting down
+2023/04/19 01:53:37 [notice] 31#31: gracefully shutting down
+2023/04/19 01:53:37 [notice] 32#32: gracefully shutting down
+2023/04/19 01:53:37 [notice] 33#33: gracefully shutting down
+2023/04/19 01:53:37 [notice] 34#34: gracefully shutting down
+2023/04/19 01:53:37 [notice] 35#35: gracefully shutting down
+2023/04/19 01:53:37 [notice] 37#37: gracefully shutting down
+2023/04/19 01:53:37 [notice] 28#28: exiting
+2023/04/19 01:53:37 [notice] 36#36: gracefully shutting down
+2023/04/19 01:53:37 [notice] 29#29: exiting
+2023/04/19 01:53:37 [notice] 30#30: exiting
+2023/04/19 01:53:37 [notice] 31#31: exiting
+2023/04/19 01:53:37 [notice] 32#32: exiting
+2023/04/19 01:53:37 [notice] 33#33: exiting
+2023/04/19 01:53:37 [notice] 34#34: exiting
+2023/04/19 01:53:37 [notice] 35#35: exiting
+2023/04/19 01:53:37 [notice] 37#37: exiting
+2023/04/19 01:53:37 [notice] 28#28: exit
+2023/04/19 01:53:37 [notice] 29#29: exit
+2023/04/19 01:53:37 [notice] 30#30: exit
+2023/04/19 01:53:37 [notice] 31#31: exit
+2023/04/19 01:53:37 [notice] 32#32: exit
+2023/04/19 01:53:37 [notice] 33#33: exit
+2023/04/19 01:53:37 [notice] 34#34: exit
+2023/04/19 01:53:37 [notice] 35#35: exit
+2023/04/19 01:53:37 [notice] 37#37: exit
+2023/04/19 01:53:37 [notice] 36#36: exiting
+2023/04/19 01:53:37 [notice] 36#36: exit
+2023/04/19 01:53:37 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/04/19 01:53:37 [notice] 1#1: worker process 28 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 29 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 30 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 31 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 32 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 33 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 35 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: worker process 37 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/19 01:53:37 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/04/19 01:53:37 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/04/19 01:53:37 [notice] 1#1: worker process 34 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/19 01:53:37 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/04/19 01:53:37 [notice] 1#1: worker process 36 exited with code 0
+2023/04/19 01:53:37 [notice] 1#1: exit
+2023/04/19 01:53:43 [notice] 1#1: using the "epoll" event method
+2023/04/19 01:53:43 [notice] 1#1: nginx/1.24.0
+2023/04/19 01:53:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/19 01:53:43 [notice] 1#1: OS: Linux 6.1.21-orbstack-00098-g7d48b03fef38
+2023/04/19 01:53:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/19 01:53:43 [notice] 1#1: start worker processes
+2023/04/19 01:53:43 [notice] 1#1: start worker process 28
+2023/04/19 01:53:43 [notice] 1#1: start worker process 29
+2023/04/19 01:53:43 [notice] 1#1: start worker process 30
+2023/04/19 01:53:43 [notice] 1#1: start worker process 31
+2023/04/19 01:53:43 [notice] 1#1: start worker process 32
+2023/04/19 01:53:43 [notice] 1#1: start worker process 33
+2023/04/19 01:53:43 [notice] 1#1: start worker process 34
+2023/04/19 01:53:43 [notice] 1#1: start worker process 35
+2023/04/19 01:53:43 [notice] 1#1: start worker process 36
+2023/04/19 01:53:43 [notice] 1#1: start worker process 37
+2023/04/19 03:01:43 [warn] 30#30: *22 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/10000.png HTTP/1.1", upstream: "http://172.19.0.4:8080/image/10000.png", host: "localhost", referrer: "http://localhost/"
+2023/04/19 03:01:43 [warn] 29#29: *19 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9997.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9997.jpg", host: "localhost", referrer: "http://localhost/"
+2023/04/19 03:01:43 [warn] 28#28: *14 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.19.0.1, server: , request: "GET /image/9996.jpg HTTP/1.1", upstream: "http://172.19.0.4:8080/image/9996.jpg", host: "localhost", referrer: "http://localhost/"

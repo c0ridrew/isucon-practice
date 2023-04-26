@@ -1,0 +1,239 @@
+/usr/sbin/mysqld, Version: 8.0.32 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+# Time: 2023-04-19T03:01:42.855619Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.034668  Lock_time: 0.000010 Rows_sent: 0  Rows_examined: 0
+use isuconp;
+SET timestamp=1681873302;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:42.858714Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.002357  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873302;
+SELECT * FROM `posts` WHERE `id` = 10002;
+# Time: 2023-04-19T03:01:42.875741Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000322  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873302;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:42.886654Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.010270  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873302;
+SELECT * FROM `posts` WHERE `id` = 10001;
+# Time: 2023-04-19T03:01:42.937349Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000151  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873302;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:42.943099Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.005506  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873302;
+SELECT * FROM `posts` WHERE `id` = 10000;
+# Time: 2023-04-19T03:01:43.011915Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000140  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.015039Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001655  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9999;
+# Time: 2023-04-19T03:01:43.023729Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000164  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.026441Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001608  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9998;
+# Time: 2023-04-19T03:01:43.031560Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000151  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.033297Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001373  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9997;
+# Time: 2023-04-19T03:01:43.044456Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000142  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.046631Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001868  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9996;
+# Time: 2023-04-19T03:01:43.048713Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000014  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.067930Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000023  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.070036Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000167  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.073305Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.002248  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9995;
+# Time: 2023-04-19T03:01:43.080242Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000121  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.081662Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001186  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9994;
+# Time: 2023-04-19T03:01:43.098019Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000153  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.101548Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001546  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9993;
+# Time: 2023-04-19T03:01:43.106395Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000028  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.107047Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000016  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.107356Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000010  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.107612Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000010  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.107968Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000137  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.109554Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001288  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9991;
+# Time: 2023-04-19T03:01:43.118296Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000211  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.120107Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001311  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9990;
+# Time: 2023-04-19T03:01:43.126392Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000153  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.127916Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001351  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9989;
+# Time: 2023-04-19T03:01:43.133525Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000025  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+# administrator command: Close stmt;
+# Time: 2023-04-19T03:01:43.134299Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000121  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.135853Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001334  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9988;
+# Time: 2023-04-19T03:01:43.142788Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000141  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.144704Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001747  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9987;
+# Time: 2023-04-19T03:01:43.167346Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000142  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.168478Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000969  Lock_time: 0.000012 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9986;
+# Time: 2023-04-19T03:01:43.174203Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000162  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.176065Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001525  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9985;
+# Time: 2023-04-19T03:01:43.181474Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000194  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.182990Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001271  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9983;
+# Time: 2023-04-19T03:01:43.189055Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000156  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.190852Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001563  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9982;
+# Time: 2023-04-19T03:01:43.199366Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.000142  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1681873303;
+# administrator command: Prepare;
+# Time: 2023-04-19T03:01:43.201178Z
+# User@Host: root[root] @ webapp-app-1.webapp_default [172.19.0.4]  Id:     8
+# Query_time: 0.001582  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1681873303;
+SELECT * FROM `posts` WHERE `id` = 9981;
